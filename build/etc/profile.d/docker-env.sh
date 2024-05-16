@@ -1,0 +1,1 @@
+export DOCKER_HOST=$(ip route ls default | gawk '{print $3}'):23900
