@@ -1,0 +1,11 @@
+services:
+  devbox:
+    image: 'devbox:latest'
+    hostname: devbox
+    command: brandon a yes
+    ports:
+      - "33890:3389"
+    volumes:
+      - "home:/home/"
+volumes:
+  home:
